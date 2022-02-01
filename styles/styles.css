@@ -8,6 +8,11 @@
 body {
     font-size: 18px;
     background-color: hsl(217, 54%, 11%) !important;
+    color: hsl(0, 0%, 100%) !important;
+}
+
+.nft-card {
+    background-color: hsl(216, 50%, 16%);
 }
 
 .attribution { 
