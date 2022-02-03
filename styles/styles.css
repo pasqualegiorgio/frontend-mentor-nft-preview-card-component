@@ -15,7 +15,7 @@ body {
     background-color: hsl(216, 50%, 16%);
 }
 
-.nft-card p {
+.nft-card__description {
     font-size: 18px;
 }
 
