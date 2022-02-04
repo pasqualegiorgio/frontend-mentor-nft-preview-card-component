@@ -11,8 +11,21 @@ body {
     color: hsl(0, 0%, 100%) !important;
 }
 
+main {
+    height: 100vh;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
 .nft-card {
     background-color: hsl(216, 50%, 16%);
+    max-width: 300px;
+}
+
+.nft-card__image {
+    width: 100%;
+    height: auto;
 }
 
 .nft-card__description {
