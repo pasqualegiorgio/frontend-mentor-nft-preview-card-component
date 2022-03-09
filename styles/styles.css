@@ -21,15 +21,50 @@ main {
 .nft-card {
     background-color: hsl(216, 50%, 16%);
     max-width: 300px;
+    border-radius: 10px;
+    padding: 1.5rem;
 }
 
 .nft-card__image {
     width: 100%;
     height: auto;
+    border-radius: 5px;
+}
+
+.nft-card__title {
+    font-size: 18px;
+    margin: 1rem 0;
 }
 
 .nft-card__description {
-    font-size: 18px;
+    font-size: 16px;
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+
+.nft-card__info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nft-card__info--value {
+    color: hsl(178, 100%, 50%);
+}
+
+.nft-card__info--time-left {
+    color: hsl(215, 51%, 70%);
+}
+
+.nft-card__author {
+    color: hsl(215, 51%, 70%);
+    padding-top: 0.5rem;
+    border-top: 1px solid hsl(215, 51%, 70%);
+    margin-top: 1rem;
+    font-size: 14px;
+}
+
+.nft-card__author--name {
+    color: hsl(0, 0%, 100%);
 }
 
 .attribution { 
