@@ -18,6 +18,12 @@ main {
     align-items: center;
 }
 
+@media (max-height: 550px) {
+    main {
+        height: 100%;
+    }
+}
+
 .nft-card {
     background-color: hsl(216, 50%, 16%);
     max-width: 300px;
