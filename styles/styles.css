@@ -82,6 +82,7 @@ main {
 .nft-card__info {
     display: flex;
     justify-content: space-between;
+    margin-top: 1rem;
 }
 
 .nft-card__info--value {
